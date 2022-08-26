@@ -28,6 +28,9 @@ fun main(args:Array<String>){
     val posicao = Arrays.binarySearch(paises, "Chile")
     println("Chile está na posição: $posicao")
 
+    paises[2] = "Canadá"
+
+    println(paises.get(2))
 
 
 }
